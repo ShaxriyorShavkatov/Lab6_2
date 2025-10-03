@@ -108,8 +108,8 @@ class StaticProfileCard extends StatelessWidget {
     return const Card(
       child: ListTile(
         leading: Icon(Icons.person),
-        title: Text('John Doe'),
-        subtitle: Text('john.doe@email.com'),
+        title: Text('Shaxriyor Shavkatov'),
+        subtitle: Text('s.shavkatov@newuu,uz'),
       ),
     );
   }
@@ -127,8 +127,8 @@ class _InteractiveProfileCardState extends State<InteractiveProfileCard> {
     return const Card(
       child: ListTile(
         leading: Icon(Icons.person),
-        title: Text('Jane Smith'),
-        subtitle: Text('jane.smith@email.com'),
+        title: Text('Atabek Isakov'),
+        subtitle: Text('a.isakov@newuu.uz'),
       ),
     );
   }
@@ -880,3 +880,4 @@ class SettingsScreen extends StatelessWidget {
     );
   }
 }
+
